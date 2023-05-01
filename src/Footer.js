@@ -54,11 +54,11 @@ function Footer() {
         . Coded by{" "}
         <a
           className="attribution__anchor"
-          href="https://github.com/Samolote"
+          href="https://github.com/joelbobai"
           target="_blank"
           rel="noopener noreferrer"
         >
-          James Wandiya
+          Joel Bobai
         </a>
         .
       </p>
