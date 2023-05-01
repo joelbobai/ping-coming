@@ -1,13 +1,35 @@
+:root {
+  --primary-accent-color: hsl(223, 87%, 63%);
+  --primary-accent-color-hover: hsl(224, 87%, 70%);
+  --secondary-accent-color: hsl(223, 100%, 88%);
+  --error-color: hsl(354, 100%, 66%);
+  --default-font-color: hsl(209, 33%, 12%);
+  --gray-font-color: hsl(0, 0%, 59%);
+  --default-transition: 0.3s ease-in-out;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 13px;
+  font-family: "Libre Franklin", sans-serif;
+  color: var(--default-font-color);
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
